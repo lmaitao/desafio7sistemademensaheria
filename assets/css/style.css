@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.text-xsmall {
+    font-size: 10px;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.text-medium {
+    font-size: 16px;
+}
+
+.text-large {
+    font-size: 45px;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.thumbnail-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.contactos {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 16 0 272px;
+    border-right: 1px solid #bec1bb;
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9.6px 19.2px;
+    border: 1px solid #e8ebe4;
+}
+
+.thumbnail-user {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail-img-tiny {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.thumbnail-data {
+    margin-left: 16px;
+}
+
+.thumbnail-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #828485;
+}
+
+.thumbnail-icons a {
+    color: #828485;
+}
+
+.thumbnail-newchat {
+    display: flex;
+    height: 25vh;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8ebe4;
+}
+
+.bt-primary {
+    background-color: #a491d2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 3rem;
+    border-radius: 0.3rem;
+}
+
+.bt-primary:hover {
+    background-color: #cdc3e6;
+}
+
+.bt-primary:focus {
+    background-color: #bec1bb;
+}
+
+.principal {
+    display: flex;
+    min-width: 100vw;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;background-color: #E8EBE4  ;
+}
+
+.principal  img {
+    width: 256px;
+    margin-bottom: 24px;
+}
+
+.description {
+    width: 560px;
+    text-align: center;
+    padding: 0 0.5rem;
+}
